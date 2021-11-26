@@ -10,6 +10,7 @@ import json
 with open('info.json','r') as jf:
     data = json.load(jf)
 
+
 h = data['HOST']
 un = data['USER']
 ps = data['PASS']

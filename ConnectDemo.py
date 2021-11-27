@@ -5,11 +5,11 @@
 @Last Modified time: 2021-11-26 09:20
 @Title : CRUD-Operations  
 '''
+
 # Importing Json for the hidding the credential data
 import json
 with open('info.json','r') as jf:
     data = json.load(jf)
-
 
 h = data['HOST']
 un = data['USER']
